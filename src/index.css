@@ -13,17 +13,21 @@ code {
 }
 
 .container {
-  width: 400px;
+  width: 500px;
   margin: 20px auto;
 }
 
 label {
-  display: inline-block;
+  display: inline-flex;
   margin-bottom: 5px;
 }
 
 input {
   width: 100%;
+}
+
+input[type=checkbox] {
+  width: 15px;
 }
 
 .custom-input {
@@ -50,6 +54,16 @@ input {
 
 .flex {
   display: flex;
+}
+
+.inline {
+  display: inline-flex;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.radio {
+  width: auto;
 }
 
 table {
